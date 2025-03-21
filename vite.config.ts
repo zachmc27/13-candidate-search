@@ -18,7 +18,7 @@ export default defineConfig({
     port: Number(process.env.PORT) || 3000, // Use the PORT provided by Render, fallback to 3000
   },
   preview: {
-    allowedHosts: ['13-candidate-search.onrender.com'], // Add this host to allowed hosts
+    allowedHosts: ['https://one3-candidate-search-9d2e.onrender.com/'], // Add this host to allowed hosts
   },
 }); 
 
