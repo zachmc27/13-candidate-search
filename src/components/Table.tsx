@@ -2,7 +2,7 @@ import "../index.css"
 import "../styles/Search.css"
 import minus from "../assets/minus-solid.svg"
 import Candidate from "../interfaces/Candidate.interface"
-import { useContext, useEffect, useState } from "react"
+import { useContext, useState } from "react"
 import { UserContext } from "./UserContext"
 
 

@@ -1,6 +1,5 @@
 import "../index.css"
 import "../styles/Search.css"
-import minus from "../assets/minus-solid.svg"
 import Table from "../components/Table.tsx"
 
 const SavedCandidates = () => {
