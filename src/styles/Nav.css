@@ -1,0 +1,23 @@
+.nav {
+    width: 100vw;
+}
+
+
+.tab {
+    margin-left: 30px;
+    opacity: 60%;
+    text-decoration: none;
+    color: inherit
+}
+
+.tab:hover {
+    border-color: #646cff;
+  }
+.tab:focus,
+.tab:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+  }
+
+.selected {
+    opacity: 100%
+}

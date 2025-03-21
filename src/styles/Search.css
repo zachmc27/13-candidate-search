@@ -1,0 +1,84 @@
+.card {
+    width: 250px;
+    height: 500px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.image-box {
+    background-color: rgb(154, 154, 154);
+    width: 100%;
+    height: 50%;
+}
+
+.info-box {
+    background-color: rgb(22, 22, 22);
+    width: 100%;
+    height: 50%;
+}
+
+.title {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.content {
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.options-box {
+  
+    width: 250px;
+    position: relative;
+    margin-top: 10px;
+}
+
+.bubble {
+    position: relative;
+    border: 1px solid transparent;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+
+.bubble:hover {
+    border-color: #646cff;
+  }
+  .bubble:focus,
+  .bubble:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+  }
+
+.yes {
+    background-color: green;
+    position: absolute;
+    right: 10px;
+}
+
+.no {
+    background-color: red;
+    left: 10px
+}
+
+.icon {
+    width: 30px;
+    height: 30px
+}
+
+.error-box {
+
+    text-align: center;
+    position: relative;
+    top: 30vh
+}
+
+
